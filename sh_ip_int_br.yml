@@ -1,7 +1,7 @@
 ---
 - name: Cau hinh tren router
   hosts: all
-  gather_facts: no
+  gather_facts: yes
 
   tasks:
     - name: Show ip
